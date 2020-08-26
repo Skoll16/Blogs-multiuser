@@ -5,8 +5,7 @@ import moment from "moment";
 import RenderHTML from "react-render-html";
 import { singleTag } from "../../actions/tag";
 import { API, DOMAIN, APP_NAME, FB_APP_ID } from "../../config";
-import blog from "../../../Backend/Models/blog";
-import Card from '../../components/blog/Card'
+import Card from '../../components/blog/Card';
 
 const Tag=({tag,blogs,query})=>{
 
